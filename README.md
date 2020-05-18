@@ -10,7 +10,7 @@ cd /parent
 npm install
 npm run serve
 ```
-#问题出现
+##问题出现
 ```
 点击浏览器返回按钮返回主应用，主应用空白
 ```
