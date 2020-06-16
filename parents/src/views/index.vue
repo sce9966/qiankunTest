@@ -1,19 +1,13 @@
 <template>
   <div>
-    <div id="nav">
-      <router-link to="/home">Home</router-link>|
-      <router-link to="/about">About</router-link>|
-      <router-link to="/vue">vue</router-link>
-    </div>
-    <router-view v-show="this.$route.name"/>
-    <div v-show="!this.$route.name" id="frame"></div>
+    我是index
   </div>
 </template>
 <script>
 export default {
-    mounted(){
-        console.log('index')
-    }
+  mounted() {
+    console.log("index");
+  }
 };
 </script>
 <style>

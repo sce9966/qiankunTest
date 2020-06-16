@@ -1,7 +1,7 @@
 const apps = [{
     name: "child",
     entry: "//localhost:8899",
-    container: "#app",
+    container: "#frame",
     activeRule: "/vue",
 }]
 

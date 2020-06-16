@@ -1,11 +1,20 @@
 <template>
   <div id="app">
-    <router-view/>
+    <!-- <div id="nav">
+      <router-link to="/home">Home</router-link>|
+      <router-link to="/about">About</router-link>|
+      <router-link to="/vue">vue</router-link>
+    </div> -->
+    <router-view />
+    <div id="frame"></div>
   </div>
 </template>
 <script>
 export default {
-}
+  mounted() {
+    console.log(this.$router);
+  }
+};
 </script>
 <style>
 #app {
